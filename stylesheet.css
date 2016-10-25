@@ -1,0 +1,146 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Garamond', serif;
+}
+
+.header {
+    min-height: 60px;
+    line-height: 60px;
+    text-align: right;
+    font-size: 27px;
+}
+
+.header ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.header li {
+    display: inline;
+    margin: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    color: #008aaf;
+}
+
+.jumbotron {
+    background: url(_MG_9719web.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 600px;
+    padding: 0px 50px;
+    color: #fff;
+    
+}
+
+.jumbotron h1 {
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 54px;
+}
+
+.jumbotron .col-md-2 {
+    text-align: right;
+    padding-top: 500px;
+}
+
+.jumbotron .col-md-2 p {
+    font-size: 14px;
+}
+
+.supporting h1 {
+    font-size: 54px;
+}
+
+.supporting h2 {
+    font-size: 42px;
+}
+
+.supporting p {
+    font-size: 18px;
+}
+
+.about {
+    font-size: 18px;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about li {
+    padding: 10px 10px;
+    display: inline-block;
+    border: none;
+    margin: 10px;
+}
+
+.about li:hover {
+    color: #fff;
+    background-color: #ff7700;
+    border: 1p solid #ff7700;
+}
+
+.watch, .listen {
+    text-align: center;
+    min-height: 500px;
+}
+
+.watch {
+    background-color: #000;
+    color: #fff;
+}
+
+.listen-foreground {
+    background: transparent;
+    color: #000;
+    position: absolute;
+    clear: both;
+    width: 100%;
+    left: 0;
+    min-height: 500px;
+    
+}
+.listen-foreground:before {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:url(_MG_9719web.jpg) no-repeat center center fixed;
+    background-size: cover;
+    opacity:0.5;
+}
+
+.footer {
+    min-height: 120px;
+    padding: 25px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer img {
+    margin: 10px;
+    height: 36px;
+}
+
+.by a {
+    font-size: 14px;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.by a:hover {
+    color: #225bff
+}
