@@ -1,5 +1,8 @@
 body {
     font-family: 'Cormorant Garamond', serif;
+    background: url("_MG_9719web.jpg") no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 .background {
